@@ -30,6 +30,14 @@ return {
 				enabled = true,
 				backend = "cmp",
 			},
+			views = {
+				cmdline_popup = {
+					position = {
+						row = 10,
+						col = "50%",
+					},
+				},
+			},
 		})
 	end,
 }
