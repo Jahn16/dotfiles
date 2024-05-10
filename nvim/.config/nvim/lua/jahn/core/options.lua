@@ -13,7 +13,6 @@ opt.textwidth = 79
 opt.expandtab = true
 opt.autoindent = true
 
-
 opt.wrap = false
 
 -- search settings
@@ -33,3 +32,6 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
+-- persistent undo
+opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+opt.undofie = true
