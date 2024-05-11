@@ -34,4 +34,4 @@ opt.splitbelow = true
 
 -- persistent undo
 opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-opt.undofie = true
+opt.undofile = true
