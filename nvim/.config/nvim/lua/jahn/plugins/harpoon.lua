@@ -26,9 +26,13 @@ return {
 				:find()
 		end
 
+		-- vim.keymap.set("n", "<leader>he", function()
+		-- 	toggle_telescope(harpoon:list())
+		-- end, { desc = "Open harpoon window" })
 		vim.keymap.set("n", "<leader>he", function()
-			toggle_telescope(harpoon:list())
+			harpoon.ui:toggle_quick_menu(harpoon:list())
 		end, { desc = "Open harpoon window" })
+
 		vim.keymap.set("n", "<leader>ha", function()
 			harpoon:list():add()
 		end, { desc = "Add" })
