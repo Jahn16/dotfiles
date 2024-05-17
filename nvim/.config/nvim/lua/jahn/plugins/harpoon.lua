@@ -35,6 +35,7 @@ return {
 		end, { desc = "Open harpoon window" })
 
 		vim.keymap.set("n", "<leader>ha", function()
+			require("notify")("Added to harpoon", "info", { title = "Harpoon" })
 			harpoon:list():add()
 		end, { desc = "Add" })
 
