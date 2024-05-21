@@ -17,7 +17,7 @@ return {
         require("conform").setup({
         formatters_by_ft = {
         lua = { "stylua" },
-        python = { "isort", "autopep8" },
+        python = { "isort", "black" },
         javascript = {  "prettier"  },
         typescript = { "prettier"},
         html = { "prettier" },

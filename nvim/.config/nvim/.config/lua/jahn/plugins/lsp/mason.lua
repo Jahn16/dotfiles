@@ -23,7 +23,7 @@ return {
 		mason_tool_installer.setup({
 			ensure_installed = {
 				"isort",
-				"autopep8",
+				"black",
 				"prettier",
 				"stylua",
 				"eslint_d",
