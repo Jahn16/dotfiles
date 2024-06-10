@@ -22,7 +22,7 @@ return {
 				typescript = { "prettier" },
 				html = { "prettier" },
 				svelte = { "prettier" },
-				go = { "gofmt" },
+				go = { "gofmt", "goimports" },
 			},
 			format_on_save = {
 				-- These options will be passed to conform.format()

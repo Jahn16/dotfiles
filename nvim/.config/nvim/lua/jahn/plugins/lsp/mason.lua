@@ -28,6 +28,7 @@ return {
 				"stylua",
 				"eslint_d",
 				"flake8",
+				"goimports",
 			},
 		})
 	end,
