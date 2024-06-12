@@ -29,6 +29,7 @@ return {
 				"eslint_d",
 				"flake8",
 				"goimports",
+				"golangci-lint",
 			},
 		})
 	end,
