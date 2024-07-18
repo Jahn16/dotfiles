@@ -23,6 +23,7 @@ return {
 				html = { "prettier" },
 				svelte = { "prettier" },
 				go = { "gofmt", "goimports" },
+				yaml = { "prettier" },
 			},
 			format_on_save = {
 				-- These options will be passed to conform.format()
