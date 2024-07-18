@@ -26,7 +26,7 @@ return {
 				"black",
 				"prettier",
 				"stylua",
-				"eslint_d",
+				"eslint",
 				"flake8",
 				"goimports",
 				"golangci-lint",
