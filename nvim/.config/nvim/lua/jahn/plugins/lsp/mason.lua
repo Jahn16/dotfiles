@@ -18,7 +18,7 @@ return {
 			},
 		})
 		mason_lspconfig.setup({
-			ensure_installed = { "lua_ls", "pyright", "tsserver", "html", "cssls", "svelte", "gopls" },
+			ensure_installed = { "lua_ls", "pyright", "ts_ls", "html", "cssls", "svelte", "gopls" },
 		})
 		mason_tool_installer.setup({
 			ensure_installed = {
