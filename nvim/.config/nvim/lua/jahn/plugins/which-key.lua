@@ -1,16 +1,14 @@
 return {
 	"folke/which-key.nvim",
 	event = "VeryLazy",
-	init = function()
-		vim.o.timeout = true
-		vim.o.timeoutlen = 500
-	end,
 	opts = {},
 	config = function()
 		local wk = require("which-key")
-		wk.register(
-			{ g = { name = "git" }, h = { name = "Harpoon" }, l = { name = "LSP" }, x = { name = "Trouble" } },
-			{ prefix = "<leader>" }
-		)
+		wk.add({
+			{ "<leader>g", group = "Git", icon = "" },
+			{ "<leader>h", group = "Harpoon", icon = "󰛢" },
+			{ "<leader>l", group = "LSP" },
+			{ "<leader>d", group = "DAP", icon = "󰙨" },
+		})
 	end,
 }
