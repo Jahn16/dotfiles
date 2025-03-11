@@ -2,5 +2,9 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+alias ls='eza --icons --color=auto'
+alias la='eza -a'
+alias ll='eza -alF'
+
 starship init fish | source
 enable_transience
