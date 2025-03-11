@@ -22,14 +22,13 @@ return {
 		})
 		mason_tool_installer.setup({
 			ensure_installed = {
-				"isort",
-				"black",
 				"prettier",
 				"stylua",
 				"eslint",
 				"flake8",
 				"goimports",
 				"golangci-lint",
+				"ruff",
 			},
 		})
 	end,
