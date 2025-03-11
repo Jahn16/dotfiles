@@ -6,5 +6,7 @@ alias ls='eza --icons --color=auto'
 alias la='eza -a'
 alias ll='eza -alF'
 
+fish_add_path /usr/local/go/bin
+
 starship init fish | source
 enable_transience
