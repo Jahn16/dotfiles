@@ -3,9 +3,6 @@ add_newline = true
 [cmd_duration]
 disabled = true
 
-[git_branch]
-symbol = " "
-
 [python]
 symbol = " "
 
