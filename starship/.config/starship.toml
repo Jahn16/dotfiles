@@ -8,6 +8,3 @@ symbol = " "
 
 [golang]
 symbol = " "
-
-[kubernetes]
-disabled = false
